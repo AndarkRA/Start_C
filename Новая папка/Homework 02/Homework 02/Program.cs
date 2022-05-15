@@ -133,6 +133,86 @@ namespace Homework_02
         }
 
 
+
+
+        /// <summary>
+        /// (*) Если пользователь указал месяц из зимнего периода, а средняя температура > 0, вывести
+        /// сообщение «Дождливая зима».
+        /// </summary>
+        static void Task05()
+        {
+            Console.Write("Введите минимальную температуру за сутки: ");
+            double minTemp = double.Parse(Console.ReadLine());
+
+            Console.Write("Введите максимальную температуру за сутки: ");
+            double maxTemp = double.Parse(Console.ReadLine());
+
+            double midTemp;
+            midTemp = (minTemp + maxTemp) / 2;
+
+
+            Console.Write("Введите номер месяца: ");
+            int numberMonth = int.Parse(Console.ReadLine());
+            string Month = "";
+            switch (numberMonth)
+            {
+                case 1:
+                    Month = "Январь";
+                    break;
+                case 2:
+                    Month = "Февраль";
+                    break;
+                case 3:
+                    Month = "Март";
+                    break;
+                case 4:
+                    Month = "Апрель";
+                    break;
+                case 5:
+                    Month = "Май";
+                    break;
+                case 6:
+                    Month = "Июнь";
+                    break;
+                case 7:
+                    Month = "Июль";
+                    break;
+                case 8:
+                    Month = "Август";
+                    break;
+                case 9:
+                    Month = "Сентябрь";
+                    break;
+                case 10:
+                    Month = "Октябрь";
+                    break;
+                case 11:
+                    Month = "Ноябрь";
+                    break;
+                case 12:
+                    Month = "Декабрь";
+                    break;
+                default:
+                    Console.WriteLine("Укажите номер месяца от 1 до 12");
+                    break;
+            }
+
+            if (numberMonth <= 2 || numberMonth == 12)
+            {
+                if (midTemp > 0)
+                {
+                    Console.WriteLine("Дождливая зима");
+                }
+
+            }
+            else
+            {
+                Console.WriteLine("Месяц к зиме не относится");
+            }
+
+        }
+
+
         static void Main(string[] args)
         {
 
@@ -141,6 +221,8 @@ namespace Homework_02
             Console.WriteLine("1 -> Задача 1");
             Console.WriteLine("2 -> Задача 2");
             Console.WriteLine("3 -> Задача 3");
+            Console.WriteLine("4 -> Задача 4");
+            Console.WriteLine("5 -> Задача 5");
             Console.WriteLine("0 -> Заврешение работы приложения");
             Console.WriteLine("======================");
 
@@ -162,6 +244,9 @@ namespace Homework_02
                 case 4:
                     Task04();
                     break;
+                case 5:
+                    Task05();
+                    break;
 
 
 
@@ -181,6 +266,7 @@ namespace Homework_02
                     Task02();
                     Task03();
                     Task04();
+                    Task05();
 
             }
         }
