@@ -76,7 +76,34 @@ namespace Homework_02
             Console.WriteLine(Month);
 
         }
- 
+
+        /// <summary>
+        /// Определить, является ли введённое пользователем число чётным.
+        /// </summary>
+        static void Task03()
+        {
+            Console.Write("Введите ваше число: ");
+            int yourNumber = int.Parse(Console.ReadLine());
+
+            if (yourNumber % 2 == 0)
+            {
+                Console.WriteLine($"{yourNumber} - четное число");
+            }
+            else 
+            {
+                Console.WriteLine($"{yourNumber} - нечетное число");
+            }
+
+        }
+
+
+
+
+
+
+
+
+
 
 
         static void Main(string[] args)
@@ -86,6 +113,7 @@ namespace Homework_02
             Console.WriteLine("======================");
             Console.WriteLine("1 -> Задача 1");
             Console.WriteLine("2 -> Задача 2");
+            Console.WriteLine("3 -> Задача 3");
             Console.WriteLine("0 -> Заврешение работы приложения");
             Console.WriteLine("======================");
 
@@ -101,6 +129,10 @@ namespace Homework_02
                 case 2:
                     Task02();
                     break;
+                case 3:
+                    Task03();
+                    break;
+
 
 
 
@@ -117,6 +149,8 @@ namespace Homework_02
 
                     Task01();
                     Task02();
+                    Task03();
+
             }
         }
     }
