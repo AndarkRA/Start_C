@@ -98,12 +98,39 @@ namespace Homework_02
 
 
 
+        /// <summary>
+        /// Для полного закрепления понимания простых типов найдите любой чек, либо фотографию
+        /// этого чека в интернете и схематично нарисуйте его в консоли, только за место динамических,
+        /// по вашему мнению, данных(это может быть дата, название магазина, сумма покупок)
+        /// подставляйте переменные, которые были заранее заготовлены до вывода на консоль.
+        /// </summary>
+        static void Task04()
+        {
+            Console.Write("Чек из пятерочки \n");
 
+            double potato = 60.77;
+            Console.WriteLine($"Картофель - {potato} руб.");
 
+            double beer = 57;
+            Console.WriteLine($"Пиво - {beer} руб.");
 
+            double milk = 77.5;
+            Console.WriteLine($"Молоко - {milk} руб.");
 
+            double cheese = 334;
+            Console.WriteLine($"Сыр - {cheese} руб.");
 
+            double apple = 84.9;
+            Console.WriteLine($"Яблоки - {apple} руб.");
 
+            Console.Write("ВСЕГО: ");
+            double checkSum;
+            checkSum = potato + beer + milk + cheese + apple;
+            Console.WriteLine($"{checkSum} рублей.");
+
+            //Так то сделал, но хотел разбить рубли и копейки, пока не вышло, но я так понял там нужно знание массивов...
+
+        }
 
 
         static void Main(string[] args)
@@ -132,6 +159,9 @@ namespace Homework_02
                 case 3:
                     Task03();
                     break;
+                case 4:
+                    Task04();
+                    break;
 
 
 
@@ -150,6 +180,7 @@ namespace Homework_02
                     Task01();
                     Task02();
                     Task03();
+                    Task04();
 
             }
         }
