@@ -51,6 +51,22 @@ namespace Homework03
         }
 
 
+        /// <summary>
+        /// Написать программу, выводящую введённую пользователем строку в обратном порядке (olleH вместо Hello).
+        /// </summary>
+        static void HW03Task03()
+        {
+            Console.Write("Введите любую фразу: ");
+            string phrase = Console.ReadLine();
+            
+            char[] phraseArray = phrase.ToCharArray();
+            Array.Reverse(phraseArray);
+            string reversePhrase = new string(phraseArray);
+            Console.WriteLine(reversePhrase);
+        }
+
+
+
 
 
         static void Main(string[] args)
@@ -72,6 +88,9 @@ namespace Homework03
                 case 2:
                     HW03Task02();
                     break;
+                case 3:
+                    HW03Task03();
+                    break;
 
 
                 case 0:
@@ -84,6 +103,7 @@ namespace Homework03
                     break;
                     HW03Task01();
                     HW03Task02();
+                    HW03Task03();
 
             }
         }
