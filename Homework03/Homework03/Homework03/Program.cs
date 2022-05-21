@@ -25,6 +25,31 @@ namespace Homework03
             }
         }
 
+        /// <summary>
+        /// Написать программу «Телефонный справочник»: создать двумерный массив 5х2, 
+        /// хранящий список телефонных контактов: первый элемент хранит имя контакта, 
+        /// второй — номер телефона/email.
+        /// </summary>
+        static void HW03Task02()
+        {
+            string[,] phoneDictionary =
+            {
+                {"Мария", "maria@yandex.ru" },
+                {"Сергей", "sergey@gmail.com" },
+                {"Аня", "anna@yandex.ru" },
+                {"Дмитрий", "dmytry@rambler.ru" },
+                {"Екатерина", "kate@yandex.ru" },
+            };
+            Console.WriteLine("Телефонный справочник: ");
+
+            for (int i = 0; i < phoneDictionary.GetLength(0); i++)
+            {
+                Console.WriteLine($"{phoneDictionary[i, 0]}, {phoneDictionary[i, 1]}");
+            }
+            Console.ReadKey();
+
+        }
+
 
 
 
@@ -33,6 +58,7 @@ namespace Homework03
             Console.WriteLine("Домашнее задание к уроку 3");
             Console.WriteLine("======================");
             Console.WriteLine("1 -> Задача 1");
+            Console.WriteLine("2 -> Задача 2");
             Console.WriteLine("0 -> Заврешение работы приложения");
             Console.WriteLine("======================");
 
@@ -42,6 +68,9 @@ namespace Homework03
             {
                 case 1:
                     HW03Task01();
+                    break;
+                case 2:
+                    HW03Task02();
                     break;
 
 
@@ -54,6 +83,7 @@ namespace Homework03
                     Console.ReadKey();
                     break;
                     HW03Task01();
+                    HW03Task02();
 
             }
         }
