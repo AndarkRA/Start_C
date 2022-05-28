@@ -27,15 +27,55 @@ namespace Homework04
             return firstName + " " + lastName + " " + patronymic;
         }
 
+        /// <summary>
+        /// Написать программу, принимающую на вход строку — набор чисел, разделенных пробелом, и
+        ///возвращающую число — сумму всех чисел в строке.Ввести данные с клавиатуры и вывести
+        ///результат на экран.
+        /// </summary>
+        /// 
+
+        static void HW04Task02()
+        {
+            int sum1 = Sum();
+            Console.WriteLine(sum1);
+
+        }
+        static int Sum()
+        {
+
+            Console.WriteLine("Введите несколько чисел, разделенных пробелом, пример:\n123 321 55555");
+            string phrase = Console.ReadLine();
+
+            string[] words = phrase.Split(' ');
+            int[] numbers = new int[words.Length];
+            int Sum = 0;
+
+            for (int i = 0; i < words.Length; i++)
+            {
+                int tmp;
+                if (int.TryParse(words[i], out tmp))
+                {
+                    numbers[i] = tmp;
+                    Sum += numbers[i];
+                }
+
+                else
+                {
+                    Console.WriteLine("Введенные значения не подходят");
+
+                }
+            }
+            return Sum;
+        }
+
 
         static void Main(string[] args)
         {
 
-
-
             Console.WriteLine("Домашнее задание к уроку 4");
             Console.WriteLine("======================");
             Console.WriteLine("1 -> Задача 1");
+            Console.WriteLine("2 -> Задача 2");
             Console.WriteLine("0 -> Заврешение работы приложения");
             Console.WriteLine("======================");
             Console.Write("Введите номер задачи ");
@@ -44,6 +84,9 @@ namespace Homework04
             {
                 case 1:
                     HW04Task01();
+                    break;
+                case 2:
+                    HW04Task02();
                     break;
 
                 case 0:
@@ -55,6 +98,7 @@ namespace Homework04
                     Console.ReadKey();
                     break;
                     HW04Task01();
+                    HW04Task02();
 
             }
         }
