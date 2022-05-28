@@ -1,0 +1,16 @@
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework04\Homework04\Homework04\bin\Debug\net5.0\Homework04.exe
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework04\Homework04\Homework04\bin\Debug\net5.0\Homework04.deps.json
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework04\Homework04\Homework04\bin\Debug\net5.0\Homework04.runtimeconfig.json
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework04\Homework04\Homework04\bin\Debug\net5.0\Homework04.runtimeconfig.dev.json
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework04\Homework04\Homework04\bin\Debug\net5.0\Homework04.dll
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework04\Homework04\Homework04\bin\Debug\net5.0\Homework04.pdb
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework04\Homework04\Homework04\obj\Debug\net5.0\Homework04.csproj.AssemblyReference.cache
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework04\Homework04\Homework04\obj\Debug\net5.0\Homework04.GeneratedMSBuildEditorConfig.editorconfig
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework04\Homework04\Homework04\obj\Debug\net5.0\Homework04.AssemblyInfoInputs.cache
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework04\Homework04\Homework04\obj\Debug\net5.0\Homework04.AssemblyInfo.cs
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework04\Homework04\Homework04\obj\Debug\net5.0\Homework04.csproj.CoreCompileInputs.cache
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework04\Homework04\Homework04\obj\Debug\net5.0\Homework04.dll
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework04\Homework04\Homework04\obj\Debug\net5.0\refint\Homework04.dll
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework04\Homework04\Homework04\obj\Debug\net5.0\Homework04.pdb
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework04\Homework04\Homework04\obj\Debug\net5.0\Homework04.genruntimeconfig.cache
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework04\Homework04\Homework04\obj\Debug\net5.0\ref\Homework04.dll
