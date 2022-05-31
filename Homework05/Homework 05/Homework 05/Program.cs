@@ -16,11 +16,24 @@ namespace Homework_05
         }
 
 
+        /// <summary>
+        /// Написать программу, которая при старте дописывает текущее время в файл
+        /// «startup.txt».
+        /// </summary>
+
+        static void HW05Task02()
+        {
+            File.AppendAllText("startup.txt", Environment.NewLine + DateTime.Now.ToString());
+        }
+
+
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Домашнее задание к уроку 4");
+            Console.WriteLine("Домашнее задание к уроку 5");
             Console.WriteLine("======================");
             Console.WriteLine("1 -> Задача 1");
+            Console.WriteLine("2 -> Задача 2");
             Console.WriteLine("0 -> Заврешение работы приложения");
             Console.WriteLine("======================");
             Console.Write("Введите номер задачи ");
@@ -29,6 +42,9 @@ namespace Homework_05
             {
                 case 1:
                     HW05Task01();
+                    break;
+                case 2:
+                    HW05Task02();
                     break;
 
 
