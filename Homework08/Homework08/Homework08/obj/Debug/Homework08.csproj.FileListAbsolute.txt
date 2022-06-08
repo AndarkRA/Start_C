@@ -1,0 +1,8 @@
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework08\Homework08\Homework08\bin\Debug\Homework08.exe.config
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework08\Homework08\Homework08\bin\Debug\Homework08.exe
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework08\Homework08\Homework08\bin\Debug\Homework08.pdb
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework08\Homework08\Homework08\obj\Debug\Homework08.csproj.AssemblyReference.cache
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework08\Homework08\Homework08\obj\Debug\Homework08.csproj.SuggestedBindingRedirects.cache
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework08\Homework08\Homework08\obj\Debug\Homework08.csproj.CoreCompileInputs.cache
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework08\Homework08\Homework08\obj\Debug\Homework08.exe
+C:\GeekBrains\C# beginer\Homework\Start_C\Homework08\Homework08\Homework08\obj\Debug\Homework08.pdb
